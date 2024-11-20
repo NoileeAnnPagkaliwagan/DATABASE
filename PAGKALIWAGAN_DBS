@@ -1,0 +1,46 @@
+-- create database store
+
+-- create table noilee(
+-- SID int primary key auto_increment,
+-- Food varchar (30) not null,
+-- FoodPrice int not null,
+-- FoodCompany varchar (30) not null,
+-- ExpirationDate date not null,
+-- ProductSize varchar (30) not null
+-- );
+
+insert into noilee(
+Food,
+FoodPrice,
+FoodCompany,
+ExpirationDate,
+ProductSize
+)values
+
+("555 Tuna", "56", "Century Pacific Food", "2023-09-17", "LARGE"),
+("Lucky Me", "15" , "Monde Nissin", "2023-09-19", "SMALL"),
+("Stick-O", "100",	"Ecco Food Corp", "2023-09-19", "SMALL"),
+("Berbrand", "16", "Nestle", "2023-09-10", "SnoileeMALL"),
+("Piattos",	 "20", "Jack ‘n Jill", "2023-09-15", "SMALL"),
+("Sunsilk",	"10", "Unilever",	"2023-09-13", "SMALL"),
+("Nescafe",	"16", "Nestle", "2023-09-15", "SMALL"),
+("Tide", "15", "Procter & Gamble", "2023-09-12", "SMALL"),
+("Keratin", "7", "Manidae Beauty", "2023-09-11", "SMALL"),
+("Rexona",	"29", "Unilever", "2023-09-10", "MEDIUM"),
+("Mentos",	"40", "Perfetti Van Melle", "2023-03-17", "SMALL"),
+("Idol Cheesedog", "50", "CDO",	"2023-02-17", "MEDIUM"),
+("Knorr Cube", "5", "Unilever", "2023-08-17", "SMALL"),
+("Choco Mucho",	"10", "Rebisco", "2023-06-17", "SMALL"),
+("Chuckie",	"19",	"Nestle", "	2023-04-17", "LARGE"),
+("Bread Crums",	"70", "KookaKrumb",	"2023-06-17", "LARGE"),
+("Beng beng", "10",	"Choki Choki", "2023-05-17", "SMALL"),
+("Cheese Ring", "11", "Kerry Group", "2023-04-17", "LARGE"),
+("Downy	", "9",	"Procter & Gamble", "2023-08-17", "SMALL"),
+("Presto",	"8", "Reynolds Products", "2023-01-25", "SMALL"),
+("Kopiko", "15", "PT Mayora", "2024-02-09", "SMALL"),
+("Safeguard", "30", "Procter & Gamble", "2023-03-19", "SMALL"),
+("Head & Shoulder", "8", "Procter & Gamble", "2023-07-18", "SMALL"),
+("Coke", "13","Coca-Cola", "2024-02-18", "SMALL"),
+("Cloud9", "10", "Cloud9 Esports Inc", "2023-01-10", "SMALL");
+
+select * from noilee
